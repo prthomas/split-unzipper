@@ -1,8 +1,10 @@
 
 # TDD - Test Driven Development 
 
-[![step](https://img.shields.io/badge/step-3-brightgreen.svg)]()
-[![step](https://img.shields.io/badge/step-4-brightgreen.svg)](https://travis-ci.org/prthomas/split-unzipper)
+[![step](https://img.shields.io/badge/step-5-blue.svg)]()
+[![step](https://img.shields.io/badge/step-6-blue.svg)]()
+[![step](https://img.shields.io/badge/step-1-red.svg)]()
+[![step](https://img.shields.io/badge/step-2-red.svg)](https://travis-ci.org/prthomas/split-unzipper)
 [![Build Status](https://travis-ci.org/prthomas/split-unzipper.svg?branch=master)](https://travis-ci.org/prthomas/split-unzipper)
 
 This is a repo, to demostrate TDD.  
@@ -24,8 +26,8 @@ TDD is a development process as represented in this state diagram:
 ## Use Cases
 * [x] Create a SplitUnzipper object with only `FileStream` parameter.  
 * [x] SplitUnzipper default `SplitSize` is 128MB, default `HeaderIncl` is False.  
-* [ ] Create a SplitUnzipper object with `FileStream` and `SplitSize` parameters.  
-* [ ] Create a SplitUnzipper object with `FileStream`, `SplitSize`, and `HeaderIncl'.  
+* [x] Create a SplitUnzipper object with `FileStream` and `SplitSize` parameters.  
+* [x] Create a SplitUnzipper object with `FileStream`, `SplitSize`, and `HeaderIncl'.  
 * [ ] SplitUnzipper throws exception if not a zip stream.  
 * [ ] SplitUnzipper unzips files and create individual gz files.  
 * [ ] SplitUnzipper splits files into chunks.  
