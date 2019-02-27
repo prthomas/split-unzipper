@@ -1,7 +1,9 @@
 
 # TDD - Test Driven Development 
 
-[![step](https://img.shields.io/badge/step-5-blue.svg)](https://travis-ci.org/prthomas/split-unzipper)
+[![step](https://img.shields.io/badge/step-6-blue.svg)]()
+[![step](https://img.shields.io/badge/step-1-red.svg)]()
+[![step](https://img.shields.io/badge/step-2-red.svg)](https://travis-ci.org/prthomas/split-unzipper)
 [![Build Status](https://travis-ci.org/prthomas/split-unzipper.svg?branch=master)](https://travis-ci.org/prthomas/split-unzipper)
 
 This is a repo, to demostrate TDD.  

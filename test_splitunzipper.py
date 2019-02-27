@@ -31,6 +31,16 @@ class TestSplitUnzipper(unittest.TestCase):
                 with SplitUnzipper(notzipfile) as badsplitunzipper:
                     pass
 
+    def test_unzipfilesandgz(self):
+        with open('z.zip', 'rb') as testzipfile:
+            with SplitUnzipper(FileStream=testzipfile,
+                               SplitSize=4) as testsplitunzipper:
+                testsplitunzipper.unzipandgz()
+                assert(os.path.exists('splitunzipper.py.gz'))
+                assert(os.path.exists('test_splitunzipper.py.gz'))
+                os.remove('splitunzipper.py.gz')
+                os.remove('test_splitunzipper.py.gz')
+
 
 if __name__ == '__main__':
     unittest.main()
