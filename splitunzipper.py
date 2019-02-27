@@ -1,3 +1,4 @@
+import gzip
 import zipfile
 
 
@@ -14,3 +15,14 @@ class SplitUnzipper:
 
     def __exit__(self, exceptiontype, exceptionvalue, traceback):
         self.zipfile.close()
+
+    def unzipandgz(self):
+        for filename in self.zipfile.namelist():
+            print(filename)
+            with self.zipfile.open(filename) as zefile:
+                fout = gzip.open(f"{filename}.gz", 'wb')
+                for line in zefile:
+                    fout.write(line)
+
+                fout.flush()
+                fout.close()
