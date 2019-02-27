@@ -12,5 +12,5 @@ class SplitUnzipper:
     def __enter__(self):
         return self
 
-    def __exit__(self):
+    def __exit__(self, exceptiontype, exceptionvalue, traceback):
         self.zipfile.close()
