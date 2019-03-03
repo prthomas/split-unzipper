@@ -23,12 +23,12 @@ TDD is a development process as represented in this state diagram:
 1. Repeat
 
 ## Use Cases
-* [x] Create a SplitUnzipper object with only `FileStream` parameter.  
-* [x] SplitUnzipper default `SplitSize` is 128MB, default `HeaderIncl` is False.  
-* [x] Create a SplitUnzipper object with `FileStream` and `SplitSize` parameters.  
-* [x] Create a SplitUnzipper object with `FileStream`, `SplitSize`, and `HeaderIncl'.  
-* [x] SplitUnzipper throws exception if not a zip stream.  
-* [x] SplitUnzipper unzips files and create individual gz files.  
+* [ ] Create a SplitUnzipper object with only `FileStream` parameter.  
+* [ ] SplitUnzipper default `SplitSize` is 128MB, default `HeaderIncl` is False.  
+* [ ] Create a SplitUnzipper object with `FileStream` and `SplitSize` parameters.  
+* [ ] Create a SplitUnzipper object with `FileStream`, `SplitSize`, and `HeaderIncl'.  
+* [ ] SplitUnzipper throws exception if not a zip stream.  
+* [ ] SplitUnzipper unzips files and create individual gz files.  
 * [ ] SplitUnzipper splits files into chunks.  
 
 
